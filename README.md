@@ -18,6 +18,9 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
       A single line of JavaScript code to be placed in the header of all conversion funnel pages of the website.
    - ## API Keys : 
       To pass in Rest API request.
+ 5. Now we can use the import utility provided by Crhistian Ramirez - https://github.com/crhistianramirez/rfk-oc-feed-importer
+ 6. Setup you headstart application https://github.com/ordercloud-api/headstart
+ 7. Post Products import from Sitecore Discover to Ordercloud we have to setup some fields like Seller address and mapping of catalog.
 
 
 
