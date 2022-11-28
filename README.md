@@ -22,6 +22,12 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
  6. Setup you headstart application https://github.com/ordercloud-api/headstart
  7. Post Products import from Sitecore Discover to Ordercloud we have to setup some fields like Seller address and mapping of catalog.
 
+## Sitecore Order Cloud Headstart Buyer APP Setup and code implementation.
+1. Add Beacon js to head section of index.html in Buyer app.
+   <script type="text/javascript" src="https://riggsandporter.rfk.riggsandporter.com/api/init/1/init.js" async="true"></script>
+   <script type="text/javascript" src="https://1257xxxxx-prod.rfksrv.com/rfk/js/11269-12xxx7321/init.js" async="true"></script>
+      
 
+3. We have to implement the discover service class to integrate the Sitecore Discover.
 
 
