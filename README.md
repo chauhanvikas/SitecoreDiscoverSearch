@@ -7,5 +7,6 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
 3. Landing pages, and product listing pages
 4. Product details page recommendations
 
-## Setup
+## Initial Setup
+Get Access to Sitecore Discover Sandbox (https://rfksrv.com) - If you don't have access send mail to 
 
