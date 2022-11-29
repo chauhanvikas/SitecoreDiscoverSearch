@@ -29,7 +29,7 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
       
 
 2. We have to implement the discover service class to integrate the Sitecore Discover.
-## Discover Service class Functions uses (https://github.com/chauhanvikas/SitecoreDiscoverSearch/blob/main/Buyer/src/app/services/ReflektionService/ReflektionService.ts)
+## Functions Usages and integration detail (https://github.com/chauhanvikas/SitecoreDiscoverSearch/blob/main/Buyer/src/app/services/ReflektionService/ReflektionService.ts)
 
 - To connect the Discover API, we must first call the access token APi in order to obtain the token, which will be passed to each and every Discover API call, whether it is pushing or reading data.The "getAccessToken" function is implemented in the ReflecktionService class to obtain the token. Please replace the value "xxxx" of x-api-key" argument in "getAccessToken" function that you will receive from the Discov Developer Resource Dashboard  "API Access " section.
 - 
