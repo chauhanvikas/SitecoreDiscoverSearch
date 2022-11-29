@@ -40,10 +40,25 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
 | --- | --- | --- |
 | **SearchReflektion** func in **ReflecktionService** class  | **listProducts** function of **ProductFilterService**** class | To retrieve the products from Discover, the SearchReflektion method is implemented in the RefletionService class. The "listProducts" function of the ProductFilterService class calls this function. |
 
-## Use Case 2 : Gather user behavior, action, and event data, then push it to Discover for AI-based product recommendation.
+## Use Case 2 : Gather user behavior, action, and event data, then push it to Discover for AI-based product recommendation.roducts 
+
+- Products viewed by User push to Discover
+
 | Function Name | Caller Function Name | Description
 | --- | --- | --- |
-| **TrackProductView** func in **ReflecktionService** class  | Called in **product-details.component.ts** class line no 105| Pushing the Product information to Discover which is visisted by user |
+| **TrackProductView** func in **ReflecktionService** class  | Called in **product-details.component.ts** class line no 105| Pushing the product visit data to Sitecore Discover |
+
+- Pushed products added to Cart by user in Sitecore Diocover
+
+| Function Name | Caller Function Name | Description
+| --- | --- | --- |
+| **TrackAddToCart** func in **ReflecktionService** class  | Called in **cart.service.ts** class line no 106 | Pushing the product data to Sitecore Discover which are added to cart |
+
+- Pushed Order data in Sitecore Diocover submitted by user
+
+| Function Name | Caller Function Name | Description
+| --- | --- | --- |
+| **TrackOrderSubmit ** func in **ReflecktionService** class  | Called in **checkout.component.ts** class line no 279 | Pushing the Order data to Sitecore Discover which are added by user |
 
 .
 
