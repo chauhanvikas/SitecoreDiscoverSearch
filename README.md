@@ -33,11 +33,15 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
 (https://github.com/chauhanvikas/SitecoreDiscoverSearch/blob/main/Buyer/src/app/services/ReflektionService/ReflektionService.ts)
 
 - Copy or merge the repo code with Ordercloud headstart buyer app to integrate with the Discover. 
-- To connect the Discover API, we must first call the access token APi in order to obtain the token, which will be passed to each and every Discover API call, whether it is pushing or reading data.The **"getAccessToken"** function is implemented in the ReflecktionService class to obtain the token. Please replace the value "xxxx" of **"x-api-key"** argument in "getAccessToken" function that you will receive from the Discov Developer Resource Dashboard  **"API Access "** section.
+- To connect the Discover API, we must first call the access token APi in order to obtain the token, which will be passed to each and every Discover API call, whether it is pushing or reading data.The **"getAccessToken"** function is implemented in the **ReflecktionService** class to obtain the token. Please replace the value "xxxx" of **"x-api-key"** argument in "getAccessToken" function that you will receive from the Discov Developer Resource Dashboard  **"API Access "** section.
 
 ## Use Case 1 : Buyer app Product Listing from Discover
-- SearchReflektion function is implemented to get the products from Discover in RefletionService class and call this in "listProducts" function of "ProductFilterService " class.
-- 
+| Function Name | Caller Function Name | Description
+| --- | --- | --- |
+| SearchReflektion func in **ReflecktionService** class  | "listProducts" function of "ProductFilterService " class | SearchReflektion function is implemented to get the products from Discover in RefletionService class and call this in "listProducts" function of "ProductFilterService " class |
+
+.
+
  
 
 
