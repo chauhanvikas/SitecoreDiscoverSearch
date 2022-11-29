@@ -24,7 +24,7 @@ This sample code's goal is to integrate Sitecore Discover with Ordercloud using 
  6. Setup you headstart application https://github.com/ordercloud-api/headstart
  7. Post Products import from Sitecore Discover to Ordercloud we have to setup some fields like Seller address and mapping of catalog.
 
-## Tracking site visitor information using setup of Beacon.
+## Tracking site visitor information using Beacon.
 The anonymous, unique user ID (UUID) is generated and assigned to visitors when the beacon is configured as a first-party to your website. 
 The visitor's browser stores this UUID in a first-party cookie. We can use  the UUID to generate visitor profiles with previous interaction history and 
 the accompanying product affinity score, Discover keeps track of visitor activity on your website.
