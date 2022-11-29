@@ -38,7 +38,12 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
 ## Use Case 1 : Buyer app Product Listing from Discover
 | Function Name | Caller Function Name | Description
 | --- | --- | --- |
-| SearchReflektion func in **ReflecktionService** class  | "listProducts" function of "ProductFilterService " class | SearchReflektion function is implemented to get the products from Discover in RefletionService class and call this in "listProducts" function of "ProductFilterService " class |
+| **SearchReflektion** func in **ReflecktionService** class  | **listProducts** function of **ProductFilterService**** class | To retrieve the products from Discover, the SearchReflektion method is implemented in the RefletionService class. The "listProducts" function of the ProductFilterService class calls this function. |
+
+## Use Case 2 : Gather user behavior, action, and event data, then push it to Discover for AI-based product recommendation.
+| Function Name | Caller Function Name | Description
+| --- | --- | --- |
+| **TrackProductView** func in **ReflecktionService** class  | Called in **product-details.component.ts** class line no 105| Pushing the Product information to Discover which is visisted by user |
 
 .
 
