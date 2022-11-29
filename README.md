@@ -1,6 +1,5 @@
 # Sitecore Discover Integration with Ordercloud
-
-The purpose of this sample code is to integrate Sitecore Discover with Ordercloud with rest API and widgit based integration with implementing some usefull use cases.
+This sample code's goal is to integrate Sitecore Discover with Ordercloud using a Widgit-based integration and a rest API by demonstrating several practical use cases.
 
 1. Banner on home page
 2. Top products listing on home page
