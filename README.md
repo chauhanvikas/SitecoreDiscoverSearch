@@ -75,11 +75,19 @@ the accompanying product affinity score, Discover keeps track of visitor activit
 .
 ## Use Case 3 : Similar and frequently-bought product recommendation on PDP page. Sitecore discover provide the out of the box feature to configure similar product 
 
-- Products viewed by User push to Discover
 
 | Function Name | Caller Function Name | Description
 | --- | --- | --- |
 | **GetProductDetailWidgetData** func in **ReflecktionService** class  | Called in **product-details.component.ts** class line no 350 and added the frequentlyBoughtTogetherProducts & similarProducts list control in the product-details.component.html block in line no 385 & 393 | Displaying similar and frequently bought products list on PDP page |
+
+.
+## Use Case 4 : Banner and Top product recommendation on Home page. Sitecore discover provide the out of the box feature to configure top product and banner widgit
+
+
+| Function Name | Caller Function Name | Description
+| --- | --- | --- |
+| **getHomePageWidgetData** func in **ReflecktionService** class  | Called in **home.component.ts** class line no 36 & 41 | Displaying banner & top products list on home page |
+
 
 
  
