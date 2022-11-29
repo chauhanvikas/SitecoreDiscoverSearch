@@ -5,7 +5,7 @@ This sample code's goal is to integrate Sitecore Discover with Ordercloud using 
 2. Top products listing on home page
 3. Search results page
 4. Product listing pages
-5. Similar produst list on PDP page
+5. Similar and frequently-bought products list on PDP page
 6. Preview search, which provides visual autocomplete functionality in the search field
 
 ## Initial Setup
@@ -13,6 +13,7 @@ This sample code's goal is to integrate Sitecore Discover with Ordercloud using 
 2. After login to sandbox you can able to see the Sitecore discover dashboard.you will able to see so may options first focus on Catalog and Developer resource.
 3. In Catalog you can able to seee list of products which generally sync from Commerce PIm but here we have sandbox already having products. So we will sync products from Sitecore Discover to Order Cloud.
 4. Before sync we have to setup the API access to connect the Sitecore Discover with any system with rest API.
+    https://doc.sitecore.com/discover/en/developers/discover-developer-guide/developer-resources-in-the-customer-engagement-console--cec-.html
    - ## Customer Key: 
       It is created by defaukt and used with rest API request.
    - ## Beacon:
@@ -69,6 +70,14 @@ This sample code's goal is to integrate Sitecore Discover with Ordercloud using 
 
 
 .
+## Use Case 3 : Similar and frequently-bought product recommendation on PDP page. Sitecore discover provide the out of the box feature to configure similar product 
+
+- Products viewed by User push to Discover
+
+| Function Name | Caller Function Name | Description
+| --- | --- | --- |
+| **GetProductDetailWidgetData** func in **ReflecktionService** class  | Called in **product-details.component.ts** class line no 350 and added the frequentlyBoughtTogetherProducts & similarProducts list control in the product-details.component.html block in line no 385 & 393 | Displaying similar and frequently bought products list on PDP page |
+
 
  
 
