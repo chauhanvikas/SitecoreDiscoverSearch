@@ -41,7 +41,7 @@ This sample code's goal is to integrate Sitecore Discover with Ordercloud using 
 | --- | --- | --- |
 | **SearchReflektion** func in **ReflecktionService** class  | **listProducts** function of **ProductFilterService**** class | To retrieve the products from Discover, the SearchReflektion method is implemented in the RefletionService class. The "listProducts" function of the ProductFilterService class calls this function. |
 
-## Use Case 2 : Gather user behavior, action, and event data, then push it to Discover for AI-based product recommendation.roducts 
+## Use Case 2 : Gather user behavior, action, and event data, then push it to Discover for AI-based product recommendation.
 
 - Products viewed by User push to Discover
 
