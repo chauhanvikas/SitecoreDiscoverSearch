@@ -60,6 +60,13 @@ The purpose of this sample code is to integrate Sitecore Discover with Orderclou
 | --- | --- | --- |
 | **TrackOrderSubmit ** func in **ReflecktionService** class  | Called in **checkout.component.ts** class line no 279 | Pushing the Order data to Sitecore Discover which are added by user |
 
+- Pushed login user data in Sitecore Diocover
+
+| Function Name | Caller Function Name | Description
+| --- | --- | --- |
+| **trackUserLogin  ** func in **ReflecktionService** class  | Called in **current-user.service.ts** class line no 59 | Pushing the logged-in user data to Sitecore Discover |
+
+
 .
 
  
