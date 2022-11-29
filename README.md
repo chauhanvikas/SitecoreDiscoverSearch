@@ -86,7 +86,7 @@ the accompanying product affinity score, Discover keeps track of visitor activit
 
 | Function Name | Caller Function Name | Description
 | --- | --- | --- |
-| **getHomePageWidgetData** func in **ReflecktionService** class  | Called in **home.component.ts** class line no 36 & 41 | Displaying banner & top products list on home page |
+| **GetHomePageWidgetData** func in **ReflecktionService** class  | Called in **home.component.ts** class line no 36 & 41 | Displaying banner & top products list on home page |
 
 
 
