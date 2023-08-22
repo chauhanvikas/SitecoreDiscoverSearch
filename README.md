@@ -1,5 +1,5 @@
 # Sitecore Discover Integration with Ordercloud
-This sample starter kit code's is to integrate Sitecore Discover with Ordercloud using a Widgit-based integration and a rest API by demonstrating several practical use cases.
+This sample starter kit code's is to integrate Sitecore Discover with Ordercloud using a Widget-based integration and a rest API by demonstrating several practical use cases.
 
 1. Banner on home page
 2. Top products listing on home page
